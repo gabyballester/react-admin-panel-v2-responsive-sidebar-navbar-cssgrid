@@ -3,7 +3,7 @@ import avatar from '../../assets/avatar.svg';
 
 const Navbar = ({ openSidebar }) => {
   return (
-    <div className="navBar">
+    <div className="navbar">
       <div
         className="nav_icon"
         onClick={() => openSidebar()}
