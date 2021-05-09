@@ -1,5 +1,5 @@
-# React panel de administración "mobile friendly"
-Panel de administración "mobile friendly" con react y sidebar ocultable-mostrable en modo mobile
+# React panel de administración "CSS responsive" (desktop, mobile, tablet")
+Panel de administración "responsive: mobile & tablet friendly" con react y sidebar ocultable/mostrable
 ## Tecnologías usadas:
 - React
 - CSS Grid
@@ -16,7 +16,12 @@ Abre [http://localhost:3000](http://localhost:3000) para mostrar el diseño
 ## Capturas
 ### - Escritorio
 ![Light mode](./screenshots/Screenshot_1.jpg)
-### - Mobile
+### - Tablet
 ![Dark mode](./screenshots/Screenshot_2.jpg)
-### - Mobile (sidebar desplegado)
+### - Tablet (sidebar desplegado)
 ![Dark mode](./screenshots/Screenshot_3.jpg)
+
+### - Mobile
+![Light mode](./screenshots/Screenshot_4.jpg)
+### - Mobile (sidebar desplegado)
+![Light mode](./screenshots/Screenshot_5.jpg)
