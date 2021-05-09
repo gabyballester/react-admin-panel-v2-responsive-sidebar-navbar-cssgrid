@@ -1,5 +1,6 @@
-import '../../../node_modules/react-vis/dist/style.css';
 import { XYPlot, LineSeries, XAxis, YAxis, VerticalGridLines, HorizontalGridLines } from 'react-vis';
+import '../../../node_modules/react-vis/dist/style.css';
+import './Chart.css';
 
 const chart = () => {
   const data = [
@@ -12,12 +13,12 @@ const chart = () => {
     { x: 7, y: 3 },
     { x: 8, y: 2 },
     { x: 9, y: 0 },
-    { x: 3, y: 3 }
+    { x: 10, y: 3 }
   ]
 
   return (
-    <div style={{ marginTop: '15px' }}>
-      <XYPlot height={300} width={300}>
+    <div className="chart-container">
+      <XYPlot height={250} width={454}>
         <VerticalGridLines />
         <HorizontalGridLines />
         <XAxis />
