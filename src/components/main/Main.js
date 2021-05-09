@@ -68,7 +68,7 @@ const Main = () => {
                 <h1>Daily Reports</h1>
                 <p>Cupertino, California, USA</p>
               </div>
-              <i className="fa fa-usd"></i>
+              <i class="fas fa-euro-sign"></i>
             </div>
             <Chart/>
           </div>
@@ -79,7 +79,7 @@ const Main = () => {
                 <h1>Stats Reports</h1>
                 <p>Cupertino, California, USA</p>
               </div>
-              <i className="fa fa-usd" ></i>
+              <i class="fas fa-euro-sign"></i>
             </div>
 
             <div className="charts__right__cards">

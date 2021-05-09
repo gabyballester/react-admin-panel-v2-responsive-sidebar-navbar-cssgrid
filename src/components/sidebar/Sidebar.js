@@ -2,16 +2,18 @@ import './Sidebar.css';
 import logo from '../../assets/logo.png'
 
 const Sidebar = ({ sidebarOpen, closeSidebar }) => {
-  
+
   return (
     <div className={`sidebar ${sidebarOpen ? 'sidebar-responsive' : ''}`}>
-      <div className="sidebar__title">
-        <div className="sidebar__img">
-          <img src={logo} alt="logo" />
-          <h1>Codersbite</h1>
+      <div className="sidebar__nav">
+        <div className="sidebar__img__container">
+          <img className="sidebar__img" src={logo} alt="logo" />
+        </div>
+        <div className="sidebar__title__container">
+          <p className="sidebar__title">Gabriel Ballester</p>
         </div>
         <i
-        onClick={()=>closeSidebar()}
+          onClick={() => closeSidebar()}
           className="fa fa-times"
         ></i>
       </div>
