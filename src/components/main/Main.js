@@ -12,7 +12,7 @@ const Main = () => {
         <div className="main__title">
           <img src={hello} alt="" />
           <div className="main__greeting">
-            <h1>Hello Codersbite</h1>
+            <h1>Hello People</h1>
             <p>Welcome to your admin dashboard</p>
           </div>
         </div>
