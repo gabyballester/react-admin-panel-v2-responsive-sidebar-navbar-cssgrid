@@ -1,6 +1,6 @@
 import './Main.css';
 import hello from '../../assets/hello.svg';
-import Chart from '../chart/chart';
+import Chart from '../chart/Chart';
 
 const Main = () => {
   return (
@@ -10,7 +10,7 @@ const Main = () => {
         {/* MAIN TITLE STARTS HERE */}
 
         <div class="main__title">
-          <img src="assets/hello.svg" alt="" />
+          <img src={hello} alt="" />
           <div class="main__greeting">
             <h1>Hello Codersbite</h1>
             <p>Welcome to your admin dashboard</p>
@@ -23,7 +23,6 @@ const Main = () => {
           <div class="card">
             <i
               class="fa fa-user-o fa-2x text-lightblue"
-              aria-hidden="true"
             ></i>
             <div class="card_inner">
               <p class="text-primary-p">Number of Subscribers</p>
@@ -32,7 +31,7 @@ const Main = () => {
           </div>
 
           <div class="card">
-            <i class="fa fa-calendar fa-2x text-red" aria-hidden="true"></i>
+            <i class="fa fa-calendar fa-2x text-red"></i>
             <div class="card_inner">
               <p class="text-primary-p">Times of Watching</p>
               <span class="font-bold text-title">2467</span>
@@ -42,7 +41,6 @@ const Main = () => {
           <div class="card">
             <i
               class="fa fa-video-camera fa-2x text-yellow"
-              aria-hidden="true"
             ></i>
             <div class="card_inner">
               <p class="text-primary-p">Number of Videos</p>
@@ -53,7 +51,6 @@ const Main = () => {
           <div class="card">
             <i
               class="fa fa-thumbs-up fa-2x text-green"
-              aria-hidden="true"
             ></i>
             <div class="card_inner">
               <p class="text-primary-p">Number of Likes</p>
@@ -71,9 +68,9 @@ const Main = () => {
                 <h1>Daily Reports</h1>
                 <p>Cupertino, California, USA</p>
               </div>
-              <i class="fa fa-usd" aria-hidden="true"></i>
+              <i class="fa fa-usd"></i>
             </div>
-            <div id="apex1"></div>
+            <Chart/>
           </div>
 
           <div class="charts__right">
@@ -82,7 +79,7 @@ const Main = () => {
                 <h1>Stats Reports</h1>
                 <p>Cupertino, California, USA</p>
               </div>
-              <i class="fa fa-usd" aria-hidden="true"></i>
+              <i class="fa fa-usd" ></i>
             </div>
 
             <div class="charts__right__cards">
