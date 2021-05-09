@@ -4,23 +4,24 @@ import Navbar from './components/navbar/Navbar'
 import Sidebar from './components/sidebar/Sidebar';
 import Main from './components/main/Main';
 
+import './App.css';
+
 const App = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
-  const openSidebar = () => {
+  const openSidebar = (incoming) => {
     setSidebarOpen(true)
   }
-  
-  const closeSidebar = () => {
+
+  const closeSidebar = (incoming) => {
     setSidebarOpen(false)
   }
 
   return (
     <div className="container">
-      <h1>React Dashboard</h1>
-      <Navbar sidebarOpen={sidebarOpen} openSidebar={openSidebar}/>
-      <Main/>
-      <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar}/>
+      <Navbar sidebarOpen={sidebarOpen} openSidebar={openSidebar} />
+      <Main />
+      <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar} />
     </div>
   );
 }
